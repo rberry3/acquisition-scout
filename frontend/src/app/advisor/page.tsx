@@ -11,4 +11,12 @@ export default function Advisor() {
         <div className="rounded border p-4 space-y-2">
           <BackendStatus />
           <p className="text-xs text-gray-500">
-            Reading <code>NEXT_PUBLIC_BACKEND_URL</co_
+            Reading <code>NEXT_PUBLIC_BACKEND_URL</code> and calling{" "}
+            <code>/health</code>.
+          </p>
+        </div>
+      </div>
+    </main>
+  );
+}
+
